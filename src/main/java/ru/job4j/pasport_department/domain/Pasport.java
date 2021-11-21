@@ -28,11 +28,12 @@ public class Pasport {
     private String registration;
 
     public Pasport(String name, String surname, String patronymic, Date birthday,
-                   int series, int number, String registration) {
+                   Date dateOfIssue, int series, int number, String registration) {
         this.name = name;
         this.surname = surname;
         this.patronymic = patronymic;
         this.birthday = birthday;
+        this.dateOfIssue = dateOfIssue;
         this.series = series;
         this.number = number;
         this.registration = registration;
